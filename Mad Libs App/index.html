@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <!-- <link rel="stylesheet" href="assets/addons/font-awesome-4.7.0/css/font-awesome.css"> -->
+
+    <title>MAD LIBS GAME</title>
+  </head>
+<body>
+
+
+
+<!-- MAD LIBS GAME -->
+
+<h1 class="main-title">Let's have fun with Mad Libs!</h1>
+<main>
+  <div class="selections-container">
+    <label class="dropdown-text" for="people-dropdown">Choose a name:</label>
+    <select class="dropdown" name="people" id="people-dropdown">
+      <option value="">--Please choose an option--</option>
+      <option value="Susie">Selina</option>
+      <option value="Zac">Arthur</option>
+      <option value="Amar">Celia</option>
+      <option value="Naya">Afua</option>
+      <option value="Ada">Cristal</option>
+    </select>
+    <label class="dropdown-text" for="verbs-dropdown">Choose a verb:</label>
+    <select class="dropdown" name="verbs" id="verbs-dropdown">
+      <option value="">--Please choose an option--</option>
+      <option value="playing">Speaking</option>
+      <option value="listening">Eating</option>
+      <option value="walking">Jogging</option>
+      <option value="running">Leaping</option>
+      <option value="laughing">Laughing</option>
+    </select>
+    <label class="dropdown-text" for="location-dropdown">Choose a location:</label>
+    <select class="dropdown" name="location" id="location-dropdown">
+      <option value="">--Please choose an option--</option>
+      <option value="Hawaii">Spain</option>
+      <option value="Italy">Haiti</option>
+      <option value="NYC">Bulgaria</option>
+      <option value="Egypt">Chad</option>
+      <option value="Paris">Niger</option>
+    </select>
+    <label class="dropdown-text" for="food-dropdown">Choose a food item:</label>
+    <select class="dropdown" name="food" id="food-dropdown">
+      <option value="">--Please choose an option--</option>
+      <option value="dumplings">Gari</option>
+      <option value="garlic">Nkatie Cake</option>
+      <option value="cake">Bofrot</option>
+      <option value="falafels">Tacos</option>
+      <option value="zucchini">Pita Bread</option>
+    </select>
+  </div>
+  <button class="btn" id="generate-madlib-btn">Generate Mad Lib</button>
+  <p id="madlib-text"></p>
+</main>
+
+
+<script src="main.js"></script>
+
+</body>
+</html>
